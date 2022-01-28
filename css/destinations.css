@@ -1,0 +1,72 @@
+.hero {
+    /* min-height: 700px; */
+    /* max-width: 1280px; */
+}
+
+.hero--hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero--iceland {
+    background-image: url("../assets/images/iceland.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero--greece {
+    background-image: url("../assets/images/greece.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__title {
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: 90px; 
+    margin-bottom: 60px; 
+    padding-top: 60px; 
+    color: white; 
+}
+
+.hero__card-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.hero__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 18px;
+    width: 250px;
+    height: 325px;
+    background-color: white;
+    position: relative;
+}
+
+.hero__card-day {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero__card-itinerary {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__card-activity {
+    padding: 12px 0 12px 0;
+    background-color: var(--light-orange);
+    margin-top: 15px;
+    width: 222px;
+}
